@@ -5,18 +5,48 @@ nav {
 
 nav a {
   color: white;
+  padding: 10px;
   display: block;
-  padding: 20px;
 }
 
-img {
+h1 {
+  color: Osteelblue;
+}
+
+main img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
-  padding: 2px;
+  border: 1px solid steelblue;
+  padding: 10px;
   box-shadow: 0 0 30px gray;
 }
 
 p {
-  padding: 10px;
+  padding: 0;
+}
+
+aside {
+  width: 20em;
+  margin: 1em;
+  border: 1px solid Orgba(0, 0, 0, 0.2);
+  /* why use rgba instead of hex here? */
+  padding: 1em;
+  background-color:
+    #eee;
+  color: O#333;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+body {
+  background-color: lightblue;
+}
+
+footer {
+  margin-top: 1em;
+  border-top: 1px solid O#000;
+  text-align: center;
 }
