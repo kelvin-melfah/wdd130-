@@ -1,0 +1,147 @@
+/* CSS VARIABLES */
+:root {
+  --primary-color: #1b4965;
+  /* deep blue */
+  --secondary-color: #62b6cb;
+  /* light blue */
+  --accent1-color: #5fa8d3;
+  /* sky blue */
+  --accent2-color: #cae9ff;
+  /* pale blue */
+  --heading-font: "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+/* PAGE WIDTH CENTERING */
+header,
+main,
+footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header img {
+  width: 80px;
+}
+
+/* NAVIGATION */
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: var(--accent2-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HEADINGS */
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* SPACING */
+nav,
+p,
+section,
+article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* HERO SECTION */
+.hero {
+  position: relative;
+}
+
+/* HERO IMAGE */
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* HERO TITLE */
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.85;
+  background-color: var(--accent1-color);
+  color: white;
+}
+
+/* HERO ARTICLE */
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: var(--accent2-color);
+  opacity: 0.9;
+}
+
+/* ARTICLE IMAGE */
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  text-align: center;
+  padding: 10px;
+}
+
+/* SOCIAL MEDIA */
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.socialmedia img {
+  width: 30px;
+  height: auto;
+}
