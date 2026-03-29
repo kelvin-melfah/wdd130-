@@ -48,9 +48,6 @@ header img {
   width: 80px;
 }
 
-header img {
-  width: 80px;
-}
 
 /* NAVIGATION */
 nav ul {
@@ -67,6 +64,10 @@ nav a {
   color: var(--accent2-color);
   text-decoration: none;
   font-weight: bold;
+}
+
+nav {
+  background-color: var(--secondary-color);
 }
 
 /* HEADINGS */
@@ -155,11 +156,11 @@ footer {
 .adventures {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 5px;
 }
 
 .adventures h2 {
-  width: 100%;
+  width: 50%;
   text-align: center;
 }
 
@@ -168,7 +169,7 @@ footer {
 }
 
 .adventures img {
-  width: 150px;
+  width: 80px;
   height: auto;
 }
 
