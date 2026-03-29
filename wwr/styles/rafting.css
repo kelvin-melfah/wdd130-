@@ -37,10 +37,15 @@ footer {
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  /* logo + nav */
   align-items: center;
-  justify-content: space-between;
   padding: 10px;
+}
+
+header img {
+  width: 80px;
 }
 
 header img {
@@ -50,6 +55,7 @@ header img {
 /* NAVIGATION */
 nav ul {
   display: flex;
+  justify-content: flex-end;
   list-style: none;
 }
 
@@ -144,4 +150,29 @@ footer {
 .socialmedia img {
   width: 30px;
   height: auto;
+}
+
+.adventures {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.adventures h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.adventures figure {
+  text-align: center;
+}
+
+.adventures img {
+  width: 150px;
+  height: auto;
+}
+
+.adventures figcaption {
+  font-size: 0.9rem;
+  margin-top: 5px;
 }
